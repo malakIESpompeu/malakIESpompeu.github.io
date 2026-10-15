@@ -14,11 +14,13 @@
     }
     body[data-bs-theme="dark"] .dropdown-item {
       color: #f8f9fa !important;
-    }
+    <!--És una metainformació que diu que tot el que veurem en aquesta pàgina s'adaptara al tamany del dispositiu perquè 
+width és l'amplada i device -width és l'ampladad del dispositiu.Vol dir que es veura bé en un mòbil,tablet,PC,cinema ect.Això es diu disseny adaptable 
+ o "responsive design" -->
     body[data-bs-theme="dark"] .dropdown-item:hover,
-    body[data-bs-theme="dark"] .dropdown-item:focus {
+    <!--Que title és el titol de la pestanya del navegador.-->
       background-color: #3c3c3c !important;
-      color: #ffffff !important;
+      <!--La línia anterior fa que sigui possible crear un menú desplegable amb bootstrap`i que les línies 28 a 
     }
 
     /* 2. Botó mode fosc/clar només icona */
