@@ -26,16 +26,45 @@ width és l'amplada i device -width és l'ampladad del dispositiu.Vol dir que es
     /* 2. Botó mode fosc/clar només icona */
     #themeToggle {
       border: none;
-      background: transparent;
-      font-size: 1.3rem;
-      color: inherit;
-    }
+       <!--Les pàgines web que começen amb CDN Compten Delivery Network són molt importants en informàtica i en el codi 
+perquè fan possible incloure en el nostre codi una biblioteca.En aquest cas la biblioteca és del tipus CSS
+"cascade style Sheet"=Fulls d'estils en Cascada.Ho sabem perque acaba en .CSS.
+CSS és un llenguatge de programació diferent a HTML.Amb CSS podem canviar l'estil de la web per exemple tipus de lletra,marges,
+els colors,estil...ect.En canvi ,amb HTML programem només l'esquelet o l'estructura bàsica que uenix tot.
+Per últim existeix el Javascript que permet el comportament interactiu i els canvis.La suma HTML + Javascript+CSS permet fer 
+qualsevol web.Els videojocs tindran molt Javascript.Per exemple si nosaltres fosin una pàgina web 
+seriem l'esquelet seria=HTML,després CSS seria la nostra roba inclós la nostra carn i el Javascript ens permitia respirar,
+moure ,estudiar...ect.En una casa sería HTML=les bigues i les parets
+l'estil seria les pintures de les parets, i el Jvascript seria l'alarma,
+el timbre,els llums o el rec 
+automàtic
+-->
+  <style>
+/*L'etiqueta de dalt significa que canviem de llenguatge i ara escrivim en CSS.Ara els comentaris 
+es posen amb una asterics i una barra inclinada per ,a diferent , a diferència els comentaris del HTML que és 
+posava menor que signe d'adimració<!-- -->.Si porta asteric barra es un comentari multilíneal i si
+porta més dos barres a l'inici es un comentari d'una línea per javascript*/
+*/L'estructura del CSS no té menor que ni mayor que.Sempré té l'estructura 
+etiqueta
+propietat1: valor1
+propietat2: valor2
 
-    /* 3. Hamburguesa blanca en mode fosc */
-    .navbar-toggler {
+
+  Exemples:
+En el codi HTML jo he escrit un titol: <hl> Estudiem el plàtan</hl>
+H1 és una etiqueta de HTML que permet fer titols fer més grans,h2 faria titols més petits fins h6 molt petit
+En el codi CSS el que fem es modificar el HTML,si vull modificar el titol h1 he d'escriure:
+"h1(
+color:pink 
+font-size:33px;
+font-family:sans-serif;
+)
+Amb això hem aconseguit canviar l'estil del títol ,concretament el color ara es rosa,abans era negre
+la mida,és 33 pixels i el tipus de letra es sans-serif */
+  /*Només hi han tres tipus de famílies de lletra:serif,sans-serif i monospace */ 
       border: none;
     }
-    .navbar-toggler-icon {
+    .navbar-toggler-icon 
       background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280,0,0,0.7%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
     }
     body[data-bs-theme="dark"] .navbar-toggler-icon {
