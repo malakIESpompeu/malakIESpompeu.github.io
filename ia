@@ -114,7 +114,10 @@ Hipertext significa que va més enllà del text; imatges, videos, enllaços, GIF
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
+      <!--Els tres tipus de lletra s'utlitzen de forma diferent i tenen característiques 
+diferents. La palabra Sherif es tradueix a vegades com a "Sherifa" pero,el nom correcte es Gracia
+serien els adornaments que tenen les lletres utlitzen de forma diferent i tenen caracteristiques diferents. La paraula Sherif 
+es tradueix a vegades com a "Sherifa" però,el nom correcte és gràcia i serien  els adornaments que tenen les lletres-->
       <!-- Menú -->
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -157,14 +160,14 @@ Hipertext significa que va més enllà del text; imatges, videos, enllaços, GIF
     <a href="https://scholar.google.com/?hl=ca/">Google Acadèmic </a> amb un model de llenguatge gegant
       <i> LLM (Large Language Mode)/ </i> que no és Inteligència Articifial General perquè no eisteix, és
       Intel·ligència Articifial Estreta. Cada estudiant analitzarà una fruita o verdura diferent i
-      compararem en el meu cas <b>la patata 🥔</b>  de cultiu ecològic i convencional concretament si
+      compararem en el meu cas <b>el platan </b>  de cultiu ecològic i convencional concretament si
     un té més nutrients beneficiosos que l'altre, així mateix investigant si hi ha diferències significatives
     com: vitamines, minerals, polifenols, carotenoides... </li>
        
-        <p class="lead"> He buscat a Google Acdemic <i>"potato organic conventional"</i> i he trobat diversos articles científics que citaré
+        <p class="lead"> He buscat a Google Acdemic <i>" musa paracaidisa"  organic conventional"</i> i he trobat diversos articles científics que citaré
           en format APA 7 amb taules i gràfics amb experiments reals <p/>
            
-         <p class="lead"> El primer article que compararé amb una IAté la següent referència APA 7. APA 7 vol dir Associació Americana de Psicòlegs
+         <p class="lead"> El primer article que compararé amb una IA té la següent referència APA 7. APA 7 vol dir Associació Americana de Psicòlegs
            sèptima edició. És molt important perquè és un sistema per a citar articles científics que comença amb els cognoms dels autors i la inicial
            del nom, seguit de l'any de publicació entre parèntsis i a continuació el títol de l'article i per finalitzar el volum de la revista
            i les pàgines inicial i final de l'article. </p>
